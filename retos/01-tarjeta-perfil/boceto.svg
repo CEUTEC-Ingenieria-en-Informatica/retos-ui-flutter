@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 844" width="390" height="844" font-family="Roboto, Arial, sans-serif">
+  <title>Boceto reto 01: tarjeta de perfil</title>
+  <rect x="0" y="0" width="390" height="844" rx="32" fill="#F4F1EA" stroke="#111827" stroke-width="2"/>
+  <rect x="16" y="120" width="358" height="600" rx="24" fill="#FFFFFF"/>
+  <path d="M16 144 a24 24 0 0 1 24 -24 h310 a24 24 0 0 1 24 24 v88 h-358 z" fill="#0F766E"/>
+  <circle cx="195" cy="232" r="48" fill="#FDE68A" stroke="#FFFFFF" stroke-width="4"/>
+  <text x="195" y="243" font-size="32" font-weight="700" fill="#92400E" text-anchor="middle">KF</text>
+  <text x="250" y="200" font-size="10" font-weight="400" fill="#DC2626" text-anchor="start">avatar 96 x 96</text>
+  <text x="195" y="310" font-size="22" font-weight="700" fill="#1F2937" text-anchor="middle">Karla Funes</text>
+  <text x="195" y="334" font-size="15" font-weight="600" fill="#0F766E" text-anchor="middle">Diseñadora de producto</text>
+  <text x="195" y="356" font-size="13" font-weight="400" fill="#6B7280" text-anchor="middle">San Pedro Sula, Cortés</text>
+  <text x="195" y="392" font-size="13" font-weight="400" fill="#1F2937" text-anchor="middle">Diseño interfaces para apps de transporte y</text>
+  <text x="195" y="412" font-size="13" font-weight="400" fill="#1F2937" text-anchor="middle">salud. Me gusta el café de altura y probar</text>
+  <text x="195" y="432" font-size="13" font-weight="400" fill="#1F2937" text-anchor="middle">todo con usuarios de verdad.</text>
+  <text x="76" y="480" font-size="20" font-weight="700" fill="#1F2937" text-anchor="middle">38</text>
+  <text x="76" y="500" font-size="12" font-weight="400" fill="#6B7280" text-anchor="middle">Proyectos</text>
+  <text x="195" y="480" font-size="20" font-weight="700" fill="#1F2937" text-anchor="middle">1.2 k</text>
+  <text x="195" y="500" font-size="12" font-weight="400" fill="#6B7280" text-anchor="middle">Seguidores</text>
+  <text x="314" y="480" font-size="20" font-weight="700" fill="#1F2937" text-anchor="middle">4.9</text>
+  <text x="314" y="500" font-size="12" font-weight="400" fill="#6B7280" text-anchor="middle">Reseñas</text>
+  <rect x="72" y="528" width="64" height="28" rx="14" fill="#E6F4F1"/>
+  <text x="104.0" y="547" font-size="13" font-weight="600" fill="#0F766E" text-anchor="middle">Figma</text>
+  <rect x="144" y="528" width="70" height="28" rx="14" fill="#E6F4F1"/>
+  <text x="179.0" y="547" font-size="13" font-weight="600" fill="#0F766E" text-anchor="middle">Flutter</text>
+  <rect x="222" y="528" width="104" height="28" rx="14" fill="#E6F4F1"/>
+  <text x="274.0" y="547" font-size="13" font-weight="600" fill="#0F766E" text-anchor="middle">Accesibilidad</text>
+  <rect x="40" y="600" width="151" height="48" rx="24" fill="#0F766E"/>
+  <text x="115" y="629" font-size="15" font-weight="600" fill="#FFFFFF" text-anchor="middle">Seguir</text>
+  <rect x="199" y="600" width="151" height="48" rx="24" fill="#FFFFFF" stroke="#1F2937" stroke-width="1"/>
+  <text x="274" y="629" font-size="15" font-weight="600" fill="#1F2937" text-anchor="middle">Mensaje</text>
+  <text x="40" y="668" font-size="10" font-weight="400" fill="#DC2626" text-anchor="start">alto 48 · al tocar: Siguiendo (borde #0F766E)</text>
+  <text x="16" y="112" font-size="10" font-weight="400" fill="#DC2626" text-anchor="start">tarjeta: radio 24, máximo 360 de ancho, margen 16</text>
+</svg>

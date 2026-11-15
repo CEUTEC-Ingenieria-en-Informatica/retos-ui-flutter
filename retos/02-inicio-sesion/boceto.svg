@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 844" width="390" height="844" font-family="Roboto, Arial, sans-serif">
+  <title>Boceto reto 02: inicio de sesión</title>
+  <rect x="0" y="0" width="390" height="844" rx="32" fill="#FFF8F0" stroke="#111827" stroke-width="2"/>
+  <circle cx="195" cy="140" r="44" fill="#FED7AA"/>
+  <text x="195" y="152" font-size="32" font-weight="400" fill="#C2410C" text-anchor="middle">📖</text>
+  <text x="24" y="236" font-size="28" font-weight="700" fill="#1C1917" text-anchor="start">Hola de nuevo</text>
+  <text x="24" y="266" font-size="15" font-weight="400" fill="#78716C" text-anchor="start">Entrá a Libreta para seguir con tus apuntes.</text>
+  <rect x="24" y="300" width="342" height="56" rx="14" fill="#FFFFFF" stroke="#E7E5E4" stroke-width="1"/>
+  <text x="56" y="334" font-size="15" font-weight="400" fill="#78716C" text-anchor="start">Correo</text>
+  <rect x="24" y="372" width="342" height="56" rx="14" fill="#FFFFFF" stroke="#E7E5E4" stroke-width="1"/>
+  <text x="56" y="406" font-size="15" font-weight="400" fill="#78716C" text-anchor="start">Contraseña</text>
+  <circle cx="338" cy="400" r="12" fill="none" stroke="#78716C" stroke-width="2"/>
+  <text x="300" y="444" font-size="10" font-weight="400" fill="#DC2626" text-anchor="start">ver-clave</text>
+  <text x="366" y="470" font-size="14" font-weight="500" fill="#C2410C" text-anchor="end">¿Olvidaste tu contraseña?</text>
+  <rect x="24" y="500" width="342" height="52" rx="14" fill="#C2410C"/>
+  <text x="195" y="532" font-size="16" font-weight="600" fill="#FFFFFF" text-anchor="middle">Ingresar</text>
+  <text x="195" y="600" font-size="14" font-weight="400" fill="#78716C" text-anchor="middle">¿No tenés cuenta? Creá una</text>
+  <text x="24" y="292" font-size="10" font-weight="400" fill="#DC2626" text-anchor="start">campos: alto 56, radio 14, borde #E7E5E4</text>
+  <text x="24" y="572" font-size="10" font-weight="400" fill="#DC2626" text-anchor="start">error debajo del campo en #B91C1C</text>
+</svg>

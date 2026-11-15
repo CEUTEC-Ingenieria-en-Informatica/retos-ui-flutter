@@ -1,0 +1,19 @@
+# Flutter y Dart
+.dart_tool/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+*.iml
+.idea/
+.vscode/
+
+# Pruebas que arma herramientas/generar_pruebas.dart
+test/generado/
+test/contraprueba/
+
+# Carpetas de plataforma que crees en tu compu para correr la app
+android/
+ios/
+linux/
+macos/
+windows/

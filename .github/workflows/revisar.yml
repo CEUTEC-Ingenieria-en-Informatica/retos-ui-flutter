@@ -1,0 +1,80 @@
+# Corre las pruebas de los retos que tocó el PR contra las soluciones que cambiaron.
+# En main (push) corre todo. Flutter se clona del repo oficial en la misma versión stable
+# con la que se probó en local. No usa secretos ni acciones de terceros.
+name: Revisar retos
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: revisar-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+env:
+  FLUTTER_VERSION: "3.47.9"
+
+jobs:
+  revisar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Instalar Flutter ${{ env.FLUTTER_VERSION }} (stable)
+        run: |
+          git clone --depth 1 --branch "$FLUTTER_VERSION" https://github.com/flutter/flutter.git "$RUNNER_TEMP/flutter"
+          echo "$RUNNER_TEMP/flutter/bin" >> "$GITHUB_PATH"
+
+      - name: Versión y paquetes
+        run: |
+          flutter --version
+          flutter pub get
+
+      - name: Elegir qué probar
+        env:
+          EVENTO: ${{ github.event_name }}
+          BASE: ${{ github.event.pull_request.base.sha }}
+          AUTOR: ${{ github.event.pull_request.user.login }}
+        run: |
+          if [ "$EVENTO" = "pull_request" ]; then
+            git diff --name-only "$BASE" HEAD > "$RUNNER_TEMP/cambios.txt"
+            echo "Archivos que tocó el PR:"
+            cat "$RUNNER_TEMP/cambios.txt"
+            dart run herramientas/generar_pruebas.dart --cambios "$RUNNER_TEMP/cambios.txt" --autor "$AUTOR"
+          else
+            dart run herramientas/generar_pruebas.dart
+          fi
+
+      - name: Analizar
+        run: flutter analyze --no-fatal-infos --no-fatal-warnings
+
+      - name: Las soluciones pasan las pruebas
+        run: |
+          if ls test/generado/*_test.dart > /dev/null 2>&1; then
+            flutter test test/generado
+          else
+            echo "Este PR no toca ningún reto. Nada que probar."
+          fi
+
+      - name: La plantilla vacía no pasa (contraprueba)
+        run: |
+          fallo=0
+          for f in test/contraprueba/*_test.dart; do
+            [ -e "$f" ] || continue
+            if flutter test "$f" > /dev/null 2>&1; then
+              echo "::error file=$f::La plantilla vacía pasó estas pruebas: no sirven para corregir."
+              fallo=1
+            else
+              echo "Bien: la plantilla vacía no pasa $f"
+            fi
+          done
+          exit $fallo

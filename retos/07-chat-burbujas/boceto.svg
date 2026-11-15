@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 844" width="390" height="844" font-family="Roboto, Arial, sans-serif">
+  <title>Boceto reto 07: chat con burbujas</title>
+  <rect x="0" y="0" width="390" height="844" rx="32" fill="#F8FAFC" stroke="#111827" stroke-width="2"/>
+  <rect x="0" y="0" width="390" height="96" rx="32" fill="#FFFFFF"/>
+  <text x="24" y="70" font-size="20" font-weight="600" fill="#0F172A" text-anchor="start">←</text>
+  <circle cx="76" cy="64" r="20" fill="#FDE68A"/>
+  <text x="76" y="69" font-size="13" font-weight="700" fill="#92400E" text-anchor="middle">MZ</text>
+  <text x="108" y="60" font-size="16" font-weight="600" fill="#0F172A" text-anchor="start">Mateo Zelaya</text>
+  <text x="108" y="78" font-size="12" font-weight="400" fill="#16A34A" text-anchor="start">en línea</text>
+  <rect x="171" y="116" width="48" height="22" rx="11" fill="#E2E8F0"/>
+  <text x="195" y="131" font-size="12" font-weight="400" fill="#64748B" text-anchor="middle">Hoy</text>
+  <rect x="16" y="156" width="240.79999999999998" height="52" rx="18" fill="#E2E8F0"/>
+  <text x="30" y="180" font-size="15" font-weight="400" fill="#0F172A" text-anchor="start">¿Ya tenés la guía de física?</text>
+  <text x="30" y="200" font-size="11" font-weight="400" fill="#64748B" text-anchor="start">7:40 a. m.</text>
+  <rect x="186.4" y="216" width="187.6" height="52" rx="18" fill="#2563EB"/>
+  <text x="200.4" y="240" font-size="15" font-weight="400" fill="#FFFFFF" text-anchor="start">Sí, la terminé anoche</text>
+  <text x="360.0" y="260" font-size="11" font-weight="400" fill="#FFFFFFCC" text-anchor="end">7:41 a. m.</text>
+  <rect x="16" y="276" width="240.79999999999998" height="74" rx="18" fill="#E2E8F0"/>
+  <text x="30" y="300" font-size="15" font-weight="400" fill="#0F172A" text-anchor="start">¿Me la pasás? Me quedé en el</text>
+  <text x="30" y="322" font-size="15" font-weight="400" fill="#0F172A" text-anchor="start">ejercicio 4</text>
+  <text x="30" y="342" font-size="11" font-weight="400" fill="#64748B" text-anchor="start">7:41 a. m.</text>
+  <rect x="118.0" y="358" width="256.0" height="52" rx="18" fill="#2563EB"/>
+  <text x="132.0" y="382" font-size="15" font-weight="400" fill="#FFFFFF" text-anchor="start">Dale, te mando foto en un rato</text>
+  <text x="360.0" y="402" font-size="11" font-weight="400" fill="#FFFFFFCC" text-anchor="end">7:43 a. m.</text>
+  <rect x="16" y="418" width="126.8" height="52" rx="18" fill="#E2E8F0"/>
+  <text x="30" y="442" font-size="15" font-weight="400" fill="#0F172A" text-anchor="start">Sos lo máximo</text>
+  <text x="30" y="462" font-size="11" font-weight="400" fill="#64748B" text-anchor="start">7:44 a. m.</text>
+  <text x="16" y="494" font-size="10" font-weight="400" fill="#DC2626" text-anchor="start">burbuja: máximo 75% del ancho · radio 18 · esquina de la cola 4</text>
+  <rect x="0" y="764" width="390" height="80" rx="0" fill="#FFFFFF"/>
+  <rect x="12" y="776" width="310" height="48" rx="24" fill="#F8FAFC"/>
+  <text x="32" y="806" font-size="15" font-weight="400" fill="#94A3B8" text-anchor="start">Escribí un mensaje</text>
+  <circle cx="354" cy="800" r="24" fill="#2563EB"/>
+  <text x="354" y="806" font-size="16" font-weight="600" fill="#FFFFFF" text-anchor="middle">➤</text>
+</svg>

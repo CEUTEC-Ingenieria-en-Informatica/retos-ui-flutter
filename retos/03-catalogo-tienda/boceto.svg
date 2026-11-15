@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 844" width="390" height="844" font-family="Roboto, Arial, sans-serif">
+  <title>Boceto reto 03: catálogo de tienda</title>
+  <rect x="0" y="0" width="390" height="844" rx="32" fill="#FAF7F2" stroke="#111827" stroke-width="2"/>
+  <text x="16" y="72" font-size="20" font-weight="700" fill="#111827" text-anchor="start">Tiendita Barrilete</text>
+  <rect x="330" y="50" width="28" height="28" rx="6" fill="none" stroke="#111827" stroke-width="2"/>
+  <circle cx="356" cy="50" r="9" fill="#DC2626"/>
+  <text x="356" y="54" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">2</text>
+  <text x="270" y="100" font-size="10" font-weight="400" fill="#DC2626" text-anchor="start">contador-carrito</text>
+  <rect x="16" y="112" width="56" height="32" rx="8" fill="#DBEAFE" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="44.0" y="133" font-size="13" font-weight="500" fill="#111827" text-anchor="middle">Todo</text>
+  <rect x="80" y="112" width="56" height="32" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="108.0" y="133" font-size="13" font-weight="500" fill="#111827" text-anchor="middle">Ropa</text>
+  <rect x="144" y="112" width="64" height="32" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="176.0" y="133" font-size="13" font-weight="500" fill="#111827" text-anchor="middle">Hogar</text>
+  <rect x="216" y="112" width="96" height="32" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="264.0" y="133" font-size="13" font-weight="500" fill="#111827" text-anchor="middle">Accesorios</text>
+  <rect x="16" y="160" width="173" height="260" rx="16" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+  <rect x="16" y="160" width="173" height="170" rx="16" fill="#FDE68A"/>
+  <text x="28" y="356" font-size="14" font-weight="600" fill="#111827" text-anchor="start">Camisa de manta</text>
+  <text x="28" y="392" font-size="13" font-weight="400" fill="#6B7280" text-anchor="start">L 450.00</text>
+  <circle cx="166" cy="388" r="12" fill="#1D4ED8"/>
+  <text x="166" y="393" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">+</text>
+  <rect x="201" y="160" width="173" height="260" rx="16" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+  <rect x="201" y="160" width="173" height="170" rx="16" fill="#BFDBFE"/>
+  <text x="213" y="356" font-size="14" font-weight="600" fill="#111827" text-anchor="start">Gorra bordada</text>
+  <text x="213" y="392" font-size="13" font-weight="400" fill="#6B7280" text-anchor="start">L 280.00</text>
+  <circle cx="351" cy="388" r="12" fill="#1D4ED8"/>
+  <text x="351" y="393" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">+</text>
+  <rect x="16" y="432" width="173" height="260" rx="16" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+  <rect x="16" y="432" width="173" height="170" rx="16" fill="#FECACA"/>
+  <text x="28" y="628" font-size="14" font-weight="600" fill="#111827" text-anchor="start">Taza de barro</text>
+  <text x="28" y="664" font-size="13" font-weight="400" fill="#6B7280" text-anchor="start">L 120.00</text>
+  <circle cx="166" cy="660" r="12" fill="#1D4ED8"/>
+  <text x="166" y="665" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">+</text>
+  <rect x="201" y="432" width="173" height="260" rx="16" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+  <rect x="201" y="432" width="173" height="170" rx="16" fill="#BBF7D0"/>
+  <text x="213" y="628" font-size="14" font-weight="600" fill="#111827" text-anchor="start">Hamaca de colores</text>
+  <text x="213" y="664" font-size="13" font-weight="400" fill="#6B7280" text-anchor="start">L 1,350.00</text>
+  <circle cx="351" cy="660" r="12" fill="#1D4ED8"/>
+  <text x="351" y="665" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">+</text>
+  <text x="16" y="718" font-size="10" font-weight="400" fill="#DC2626" text-anchor="start">2 columnas · separación 12 · tarjeta radio 16 · alto 260</text>
+  <text x="16" y="734" font-size="10" font-weight="400" fill="#DC2626" text-anchor="start">botón + con key agregar-&lt;id&gt;</text>
+</svg>
